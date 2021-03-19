@@ -1,0 +1,106 @@
+/* header */
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    
+}
+
+.menu{
+    
+    height: 100%;
+    background-color: rgb(175, 175, 175);
+}
+/* /header */
+
+/* main */
+
+/* descrizione e credenziali */
+.cont-des-cred{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    padding-bottom: 3%;
+}
+
+.des-cred{
+    height: 100%;
+}
+.cont-descrizione,
+.cont-credenziali{
+    height: 100%;
+    margin-top: 4%;
+}
+.descrizione,
+.credenziali{
+    margin-top: 5%;
+    width: 55%;
+    height: 100%;
+    background-color: grey;
+    margin-left: 23%;
+}
+
+
+/* /descrizione e credenziali */
+
+/* partners */
+.cont-partners{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    padding-top: 10px;
+}
+.innovative{
+    text-align: center;
+    height: 20px;
+    background-color: wheat;
+    padding-top: 2px;
+}
+.cont-imgs{
+    width: 90%;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+.img-partner{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    margin-top: 5%;
+}
+.cont-customer{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.piccola{
+    width: 100%;
+}
+/* /partners */
+
+/* solutions */
+
+.cont-solutions{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(153, 153, 153);
+}
+.title-deploy{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.under-title{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(153, 153, 153);
+}
+.cont-options{
+    height: 400px;
+    background-color: lightgray;
+}
+
+
+
+
+/* /solutions */

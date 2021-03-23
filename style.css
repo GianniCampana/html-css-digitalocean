@@ -1,236 +1,375 @@
 /* header */
-.nav-bar{
-    width: 100%;
-    height: 70px;
-    
+.nav-bar {
+  width: 100%;
+  height: 100%;
 }
 
-.menu{
-    
-    height: 100%;
-    background-color: rgb(175, 175, 175);
+.menu {
+  height: 100%;
 }
+
+.cont-img-nav img {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  height: 60%;
+}
+
+.cont-lista ul {
+  padding-top: 8%;
+}
+.cont-lista ul li {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  font-size: 15px;
+  margin-left: 2%;
+  color: rgb(0, 0, 90);
+}
+
+.menu-login ul {
+  text-align: right;
+  padding-top: 5%;
+  color: rgb(0, 0, 90);
+}
+.menu-login ul li {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  font-size: 15px;
+  margin-left: 2%;
+}
+.button {
+  border: solid 1px rgb(56, 136, 255);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.hamburger {
+  padding-top: 7%;
+  text-align: right;
+  color: rgb(6, 135, 255);
+}
+
 /* /header */
 
 /* main */
 
 /* descrizione e credenziali */
-.cont-des-cred{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    padding-bottom: 3%;
+
+.cont-des-cred {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/bg-banner-home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3%;
 }
 
-.des-cred{
-    height: 100%;
+.des-cred {
+  height: 100%;
 }
 .cont-descrizione,
-.cont-credenziali{
-    height: 100%;
-    margin-top: 4%;
-}
-.descrizione,
-.credenziali{
-    margin-top: 5%;
-    width: 55%;
-    height: 100%;
-    background-color: grey;
-    margin-left: 23%;
+.cont-credenziali {
+  height: 100%;
+  margin-top: 4%;
 }
 
+.descrizione {
+  width: 100%;
+  margin-top: 5%;
+  height: 100%;
+}
+.descrizione span h1 {
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+}
+.descrizione span p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+}
+.credenziali {
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-top: 2%;
+  border-radius: 7px;
+}
+.credenziali h2 {
+  font-size: 40px;
+  color: rgb(0, 0, 90);
+}
+#text-blu {
+  color: blue;
+}
+.credenziali :first-child {
+  margin-bottom: -2%;
+}
+.email,
+.name {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 2%;
+  border: rgb(187, 186, 186) solid 1px;
+  border-radius: 5px;
+}
+.credenziali .btn-account {
+  width: 90%;
+  height: 10%;
+  background-color: rgb(53, 89, 248);
+  color: white;
+  margin-bottom: 2%;
+}
+.credenziali .btn-google {
+  width: 90%;
+  height: 10%;
+  color: gray;
+  box-shadow: gray 2px 2px;
+  padding-right: 39%;
+  margin-bottom: 2%;
+}
+.credenziali .btn-google img {
+  width: 8%;
+  height: 100%;
+  margin-right: 55%;
+}
+.credenziali p {
+  margin-top: 1%;
+}
 
 /* /descrizione e credenziali */
 
 /* partners */
-.cont-partners{
-    width: 100%;
-    height: 100%;
-    background-color: lightgray;
-    padding-top: 10px;
+.cont-partners {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  padding-top: 10px;
 }
-.innovative{
-    text-align: center;
-    height: 20px;
-    background-color: wheat;
-    padding-top: 2px;
+.innovative {
+  text-align: center;
+  height: 20px;
+  padding-top: 2px;
+  color: gray;
 }
-.cont-imgs{
-    width: 90%;
-    height: 50px;
-    padding-top: 5px;
-    margin-left: 50px;
+.cont-imgs {
+  width: 85%;
+  height: 50px;
+  padding-top: 5px;
+  padding-left: 10%;
 }
-.img-partner{
-    width: 130px;
-    height: 40px;
-    background-color: white;
-    margin-top: 5%;
+
+.img-partner {
+  width: 160px;
+  height: 70px;
+
+  margin-top: 5%;
 }
-.cont-customer{
-    height: 20px;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
+.img-partner img {
+  width: 100%;
+  height: 100%;
 }
-.piccola{
-    width: 100%;
+.cont-customer {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.piccola {
+  width: 100%;
 }
 /* /partners */
 
 /* solutions */
 
-.cont-solutions{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(153, 153, 153);
+.cont-solutions {
+  width: 100%;
+  height: 100%;
 }
-.title-deploy{
-    width: 80%;
-    text-align: center;
-    margin: auto;
+.title-deploy {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
-.
-.title-deploy p{
-    margin-left: -18%;
-    width: 130%;
-    
+.title-deploy h2 {
+  color: rgb(0, 0, 90);
 }
-.under-title{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(153, 153, 153);
+.title-deploy p {
+  font-size: 130%;
+  width: 100%;
+  color: rgb(0, 0, 90);
 }
-.under-title-one{
-    
-    height:100%;
+.under-title {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
 }
-.under-title-one ul{
-    border-left: solid gray 2px;
-    list-style-type: none;
-    padding-left: 10px;
+.under-title-one {
+  height: 100%;
 }
-.under-title-one ul li{
-    margin-bottom: 30px;
+.under-title-one ul {
+  border-left: solid gray 2px;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-left: 15%;
+  padding-top: 15px;
+  color: rgb(0, 0, 90);
+}
+.under-title-one ul li {
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.under-title-two {
+  color: rgb(0, 0, 90);
+}
+.riquadro p {
+  width: 80%;
 }
 
 /* /solutions */
 
 /* designed */
-.title-designed{
-    width: 80%;
-    text-align: center;
-    margin: auto;
+.title-designed {
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
-.title-designed p{
-   
-    width: 90%;
-    
+.title-designed h2 {
+  font-size: 30px;
+  width: 100%;
+  color: rgb(0, 0, 90);
 }
-.window{
-    height: 400px;
-    background-color: darkgray;
-    padding-bottom: 5%;
+.title-designed p {
+  color: rgb(0, 0, 90);
+  width: 100%;
+  font-size: 19px;
+}
+.window {
+  height: 100%;
+  background-color: darkgray;
+  padding-bottom: 5%;
 }
 
-.fa-chevron-left{
-   
+.window .cont-img img {
+  width: 100%;
+  height: 100%;
 }
-.cont-img{
-    margin: auto;
-    margin-top: 5%;
-    width: 60%;
-    height: 80%;
-    background-color: darkkhaki;
+
+.cont-img {
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  width: 60%;
+  height: 60%;
+  background-color: darkkhaki;
+}
+.fa-chevron-left {
+  position: absolute;
+  top: 45%;
+  left: -5%;
+  font-size: 30px;
+}
+.fa-chevron-right {
+  position: absolute;
+  top: 45%;
+  left: 101%;
+  font-size: 30px;
 }
 /* /designed */
 
 /* features */
-.title-features{
-    text-align: center;
-    padding-top: 3%;
+.title-features {
+  text-align: center;
+  padding-top: 3%;
 }
 
 .quadrato-uno,
 .quadrato-due,
-.quadrato-tre{
-    height: 200px;
+.quadrato-tre {
+  height: 200px;
 }
-.quadrato-uno{
-    background-color: darkkhaki;
+.quadrato-uno {
+  background-color: darkkhaki;
 }
-.quadrato-due{
-    background-color: darkmagenta;
+.quadrato-due {
+  background-color: darkmagenta;
 }
-.quadrato-tre{
-    background-color: darkolivegreen;
+.quadrato-tre {
+  background-color: darkolivegreen;
 }
 
 /* /features */
 
 /* service */
-#service{
-    background-color: blue;
+#service {
+  background-color: blue;
 }
-.title-service{
-    margin-top: 3%;
-    padding-top: 3%;
-    color: white;
-    text-align: center;
+.title-service {
+  margin-top: 3%;
+  padding-top: 3%;
+  color: white;
+  text-align: center;
 }
-.cont-service{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 3%;
+.cont-service {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
 }
 .tab-service-one,
-.tab-service-two{
-    height: 170px;
-    background-color: aquamarine;
+.tab-service-two {
+  height: 170px;
+  background-color: aquamarine;
 }
 
 /* /service */
 
 /* development */
-.title-development{
-    text-align: center;
+.title-development {
+  text-align: center;
 }
 /* /development */
 
 /* get started */
-#get-started{
-    background-color: blue;
-    height: 100%;
+#get-started {
+  background-color: blue;
+  height: 100%;
 }
-.get-started{
-    margin-top: 4%;
-    text-align: center;
-    color: white;
-    margin-bottom: 4%;
+.get-started {
+  margin-top: 4%;
+  text-align: center;
+  color: white;
+  margin-bottom: 4%;
 }
-.button{
-    cursor: pointer;
-    margin: auto;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    background-color: white;
-    color: lightskyblue;
+.button {
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: lightskyblue;
 }
 /* /get started */
 
 /* conclusion */
-#colclusion{
-    background-color: rgb(0, 0, 117);
-    height: 100%;
-    width: 100%;
+#colclusion {
+  background-color: rgb(0, 0, 117);
+  height: 100%;
+  width: 100%;
 }
-.colonna{
-    background-color: darkcyan;
-    height: 300px;
+.colonna {
+  background-color: darkcyan;
+  height: 300px;
 }
 
 /* /conclusion */
